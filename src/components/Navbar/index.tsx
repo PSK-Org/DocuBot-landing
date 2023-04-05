@@ -28,7 +28,7 @@ export default function Navbar() {
                           : theme.darkAlgorithm,
                   }}
               >
-                  <Button size="middle" shape="round" icon={mobile ? <FaGithub /> : <FaStar />} href="about:blank">
+                  <Button size="middle" shape="round" icon={mobile ? <FaGithub /> : <FaStar />} href="/DocuBot_v2.pdf">
                       {mobile ? "Try now!" : "Try it here!"}
                   </Button>
       </ConfigProvider>

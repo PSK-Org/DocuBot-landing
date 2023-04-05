@@ -22,13 +22,13 @@ export default function index() {
                     Resources
                 </Typography>
                 <Typography variant="body1" gutterBottom align="left">
-                    <Link href="https://docs.turbocore.org/" className={style.link}>
+                    <Link href="/DocuBot_v2.pdf" className={style.link}>
                         <FaBookOpen size="1.5rem" />
                         <span style={{marginTop: "0.3rem"}}>White Paper</span>
                     </Link>
                 </Typography>
                 <Typography variant="body1" gutterBottom align="left">
-                    <Link href="https://github.com/Turbo-Core/TurboCore" className={style.link}>
+                    <Link href="" className={style.link}>
                         <FaStar size="1.5rem"/>
                         <span style={{marginTop: "0.3rem"}}>Try it here</span>
                         </Link>

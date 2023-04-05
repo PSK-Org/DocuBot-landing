@@ -43,7 +43,7 @@ export default function Header({ darkMode }: { darkMode: boolean }) {
                             : theme.defaultAlgorithm,
                     }}
                 >
-                    <Button size="large" shape="round" icon={<FaBookOpen />} href="https://docs.turbocore.org/">
+                    <Button size="large" shape="round" icon={<FaBookOpen />} href="/DocuBot_v2.pdf">
                         White Paper
                     </Button>
                 </ConfigProvider>
@@ -54,7 +54,7 @@ export default function Header({ darkMode }: { darkMode: boolean }) {
                             : theme.darkAlgorithm,
                     }}
                 >
-                    <Button size="large" shape="round" icon={<FaStar />} href="https://github.com/Turbo-Core/TurboCore">
+                    <Button size="large" shape="round" icon={<FaStar />} href="">
                         Try it here!
                     </Button>
                 </ConfigProvider>
