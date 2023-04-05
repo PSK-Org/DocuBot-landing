@@ -3,10 +3,8 @@ import style from "./style.module.css";
 import Grid2 from "@mui/material/Unstable_Grid2";
 import Card from "@/components/partials/Card";
 import { Typography } from "@mui/material";
-import { HiLightningBolt } from "react-icons/hi";
-import { FaGlobe, FaExpandArrowsAlt, FaLock, FaFeather, FaLightbulb } from "react-icons/fa";
-import { RiOpenSourceFill } from "react-icons/ri";
-import { IoExtensionPuzzleSharp } from "react-icons/io5";
+import { FaLightbulb, FaMobile } from "react-icons/fa";
+import { BiMath } from "react-icons/bi";
 
 export default function Features() {
     return (
@@ -23,7 +21,7 @@ export default function Features() {
             <Grid2 container spacing={5}>
             <Grid2 xs={12} sm={6} md={4} style={{display: "flex"}}>
                     <Card
-                        Icon={HiLightningBolt}
+                        Icon={BiMath}
                         title="Math Support"
                         description="DocuBot uses revolutionary Optical Character Recognition (OCR) technology to extract text and math equations from user-uploaded documents, with support for a wide range of math symbols and equations and surprisingly high accuracy. This allows users to study math problems and equations from their textbooks, notes, and other documents."
                     />
@@ -37,7 +35,7 @@ export default function Features() {
                 </Grid2>
                 <Grid2 xs={12} sm={6} md={4} style={{display: "flex"}}>
                     <Card
-                        Icon={RiOpenSourceFill}
+                        Icon={FaMobile}
                         title="Mobile Accessible"
                         description="DocuBot is accessible on mobile devices, allowing users to study on-the-go and at their convenience. The system is optimized for mobile devices, ensuring that users can access all of the features and functionality of the system from their smartphones and tablets. This means that users can study whenever and wherever they want, making it easier to fit studying into their busy lives."
                     />
