@@ -25,16 +25,15 @@ export default function Header({ darkMode }: { darkMode: boolean }) {
                     className={classNames(nunitoBold.className, style.leadingText)}
                 >
                     <HackerEffect
-                        word="TurboCore"
+                        word="Docubot"
                         className={style.leadingText}
                     />{" "}
-                    is a <span style={{ color: "#5fcfff" }}>new</span> way to
-                    build <span style={{ color: "#e92c81" }}>turbocharged</span>{" "}
-                    backends.
+                    is the <span style={{ color: "#5fcfff" }}>dankest</span> way to
+                    study <span style={{ color: "#e92c81" }}>efficiently.</span>
                 </h1>
             </div>
             <Typography variant="body1" className={style.bodyText}> 
-            A fast, scalable, and reliable backend-as-a-service built with Rust. Designed to simplify app development, TurboCore lets you do all the traditional backend stuff without needing to develop a backend yourself.
+            Docubot is a revolutionary study tool that utilizes AI technology to provide answers to questions based on the context of user-uploaded documents, making studying more efficient and effective than ever before.
             </Typography>
             <div className={style.actions}>
                 <ConfigProvider
@@ -45,7 +44,7 @@ export default function Header({ darkMode }: { darkMode: boolean }) {
                     }}
                 >
                     <Button size="large" shape="round" icon={<FaBookOpen />} href="https://docs.turbocore.org/">
-                        Documentation
+                        White Paper
                     </Button>
                 </ConfigProvider>
                 <ConfigProvider
@@ -56,7 +55,7 @@ export default function Header({ darkMode }: { darkMode: boolean }) {
                     }}
                 >
                     <Button size="large" shape="round" icon={<FaStar />} href="https://github.com/Turbo-Core/TurboCore">
-                        Star on GitHub!
+                        Try it here!
                     </Button>
                 </ConfigProvider>
             </div>

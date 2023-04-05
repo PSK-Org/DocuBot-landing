@@ -7,7 +7,6 @@ import { ConfigProvider, theme } from "antd";
 import { getMediaQueryPreference } from "@/util";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { Martel_Sans } from "next/font/google";
-import EarlyAccess from "@/components/EarlyAccess";
 import { NextSeo } from "next-seo";
 import Features from "@/components/Features";
 import Quote from "@/components/Quote";
@@ -46,16 +45,10 @@ const Page: NextPageWithLayout = () => {
                 </Head>
                 <main>
                     <NextSeo
-                        title="TurboCore"
-                        description="A fast, scalable, and reliable backend-as-a-service built with Rust."
-                        canonical="https://turbocore.org/"
-                        // openGraph={{todo: "TODO"}}
-                        twitter={{
-                            handle: "@TurboCoreBaaS",
-                        }}
+                        title="DocuBot"
+                        description="DocuBot is an AI powered study assistant that helps you learn faster and more efficiently."
                     />
                     <Header darkMode={darkMode} />
-                    <EarlyAccess />
                     <Features />
                     <Quote />
                     <Footer />

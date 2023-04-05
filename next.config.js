@@ -1,4 +1,3 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   images: {
@@ -7,7 +6,7 @@ const nextConfig = {
 }
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
-    enabled: true,
+    enabled: false,
     openAnalyzer: false,
   })
 

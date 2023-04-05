@@ -18,7 +18,7 @@ export default function Navbar() {
     <div className={style.navbar}>
       <div className={style.navbarLogo}>
           <Link href="/">
-              <Image src="/logo.svg" alt="TurboCore" width={178} height={25}/>
+              <Image src="/logo.svg" alt="TurboCore" width={200} height={100}/>
           </Link>
       </div>
       <ConfigProvider
@@ -28,8 +28,8 @@ export default function Navbar() {
                           : theme.darkAlgorithm,
                   }}
               >
-                  <Button size="middle" shape="round" icon={mobile ? <FaGithub /> : <FaStar />} href="https://github.com/Turbo-Core/TurboCore">
-                      {mobile ? "Github" : "Star on GitHub!"}
+                  <Button size="middle" shape="round" icon={mobile ? <FaGithub /> : <FaStar />} href="about:blank">
+                      {mobile ? "Try now!" : "Try it here!"}
                   </Button>
       </ConfigProvider>
   </div>

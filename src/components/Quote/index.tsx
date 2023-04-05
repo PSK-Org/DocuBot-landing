@@ -6,18 +6,18 @@ export default function Quote() {
   return (
     <div className={style.out}>
         <Typography variant="h2" component="p" gutterBottom align="left" className={style.quote}>
-            MAKE IT WORK,
+            WORK HARD,
         </Typography>
         <Typography variant="h2" component="p" gutterBottom align="center" className={style.quote}>
-            MAKE IT RIGHT,
+            PLAY HARD,
         </Typography>
         <Typography variant="h2" component="p" gutterBottom align="right" className={style.quote}>
-            MAKE IT <em style={{color: "#e92c81"}}>FAST</em>.
+            <em style={{color: "#e92c81"}}>STUDY</em> HARD.
         </Typography>
         <div style={{display: "flex", justifyContent:"space-between", color: "#888"}}>
             <div></div>
-            <Typography variant="h6" component="p" gutterBottom align="left">
-                &#8212; Kent Beck, software engineer and author, creator of Extreme Programming
+            <Typography variant="body1" component="p" gutterBottom align="left">
+                DocuBot will not help with the first two. But for the last one, we got you covered {":)"}
             </Typography>
         </div>
     </div>
