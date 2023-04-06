@@ -11,6 +11,7 @@ import Image from "next/image";
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import style from "./style.module.css";
+import { FaPlay } from "react-icons/fa";
 
 const nunitoBold = Nunito({ subsets: ["latin"], weight: "1000" });
 
@@ -36,6 +37,17 @@ export default function Header({ darkMode }: { darkMode: boolean }) {
             Docubot is a revolutionary study tool that utilizes AI technology to provide answers to questions based on the context of user-uploaded documents, making studying more efficient and effective than ever before.
             </Typography>
             <div className={style.actions}>
+            <ConfigProvider
+                    theme={{
+                        algorithm: darkMode
+                            ? theme.darkAlgorithm
+                            : theme.defaultAlgorithm,
+                    }}
+                >
+                    <Button size="large" shape="round" icon={<FaPlay />} href="https://youtu.be/KYsgwyozphU">
+                        Watch the video
+                    </Button>
+                </ConfigProvider>
                 <ConfigProvider
                     theme={{
                         algorithm: darkMode
