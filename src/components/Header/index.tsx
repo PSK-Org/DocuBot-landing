@@ -54,7 +54,7 @@ export default function Header({ darkMode }: { darkMode: boolean }) {
                             : theme.darkAlgorithm,
                     }}
                 >
-                    <Button size="large" shape="round" icon={<FaStar />} href="">
+                    <Button size="large" shape="round" icon={<FaStar />} href="https://docubot-app.samiyousef.ca">
                         Try it here!
                     </Button>
                 </ConfigProvider>

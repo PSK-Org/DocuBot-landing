@@ -28,7 +28,7 @@ export default function index() {
                     </Link>
                 </Typography>
                 <Typography variant="body1" gutterBottom align="left">
-                    <Link href="" className={style.link}>
+                    <Link href="https://docubot-app.samiyousef.ca" className={style.link}>
                         <FaStar size="1.5rem"/>
                         <span style={{marginTop: "0.3rem"}}>Try it here</span>
                         </Link>
